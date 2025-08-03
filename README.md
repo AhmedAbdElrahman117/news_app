@@ -16,12 +16,7 @@ Welcome to **News App** – your real-time global news companion! Instantly get 
 - **📱 Cross-Platform:** Optimized for both iOS and Android devices.
 - **🔔 Instant Alerts:** Stay ahead with breaking news notifications.
 - **🔥 Super Smooth Performance:** Lightning-fast loads, and an intuitive layout that puts information at your fingertips.
-
-## 📸 Screenshots
-
-*(Add your app screenshots here to show off the design!)*
-
----
+  
 
 ## 🚀 Getting Started
 
