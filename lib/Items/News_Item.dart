@@ -23,18 +23,20 @@ class News_Item extends StatelessWidget {
       },
       child: Column(
         children: [
-          Container(
-            height: 190,
-            margin: const EdgeInsets.symmetric(horizontal: 20),
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(20),
-              image: DecorationImage(
-                fit: BoxFit.fill,
-                onError: (exception, stackTrace) {
-                  const Icon(Icons.error);
-                },
-                image: NetworkImage(news.image ??
-                    'https://www.publicdomainpictures.net/pictures/280000/velka/not-found-image-15383864787lu.jpg'),
+          AspectRatio(
+            aspectRatio: 16 / 9,
+            child: Container(
+              margin: const EdgeInsets.symmetric(horizontal: 20),
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(20),
+                image: DecorationImage(
+                  fit: BoxFit.cover,
+                  onError: (exception, stackTrace) {
+                    const Icon(Icons.error);
+                  },
+                  image: NetworkImage(news.image ??
+                      'https://www.publicdomainpictures.net/pictures/280000/velka/not-found-image-15383864787lu.jpg'),
+                ),
               ),
             ),
           ),
