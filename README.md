@@ -13,6 +13,8 @@
 
 ## Screenshots
 
+<img src="assets/Screenshot_1757090359.png" width=200px>
+
 <!-- Add screenshots of your app here -->
 <!-- ![Home Screen](screenshots/home.png) -->
 
