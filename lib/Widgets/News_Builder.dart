@@ -67,8 +67,7 @@ class _News_BuilderState extends State<News_Builder> {
             child: Center(
               child: Padding(
                 padding: const EdgeInsets.all(40.0),
-                child: LinearProgressIndicator(
-                  borderRadius: BorderRadius.circular(40),
+                child: CircularProgressIndicator(
                   color: Colors.deepOrange,
                 ),
               ),
