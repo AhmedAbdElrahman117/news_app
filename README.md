@@ -15,8 +15,21 @@
 
 <img src="assets/Screenshot_1757090359.png" width=200px>
 
-<!-- Add screenshots of your app here -->
-<!-- ![Home Screen](screenshots/home.png) -->
+## Dependencies
+
+This project uses the following packages:
+
+- [`dio`](https://pub.dev/packages/dio): ^5.4.2+1 — Powerful HTTP client for Dart/Flutter.
+- [`webview_flutter`](https://pub.dev/packages/webview_flutter): ^4.7.0 — Display web content within your app.
+- [`font_awesome_flutter`](https://pub.dev/packages/font_awesome_flutter): ^10.7.0 — Icon pack based on Font Awesome for Flutter.
+- [`url_launcher`](https://pub.dev/packages/url_launcher): ^6.2.5 — Launch URLs in a mobile platform.
+- [`flutter_launcher_icons`](https://pub.dev/packages/flutter_launcher_icons): ^0.14.4 — Easily update your Flutter app's launcher icon.
+
+## API
+
+My News fetches news articles using a news API such as [NewsAPI.org](https://newsapi.org/) or any other reliable news data provider.
+
+> **Note:** You may need to obtain an API key from your chosen news API provider and configure it in the project.
 
 ## Getting Started
 
@@ -38,22 +51,6 @@ To run this project locally:
    ```bash
    flutter run
    ```
-
-## Dependencies
-
-This project uses the following packages:
-
-- [`dio`](https://pub.dev/packages/dio): ^5.4.2+1 — Powerful HTTP client for Dart/Flutter.
-- [`webview_flutter`](https://pub.dev/packages/webview_flutter): ^4.7.0 — Display web content within your app.
-- [`font_awesome_flutter`](https://pub.dev/packages/font_awesome_flutter): ^10.7.0 — Icon pack based on Font Awesome for Flutter.
-- [`url_launcher`](https://pub.dev/packages/url_launcher): ^6.2.5 — Launch URLs in a mobile platform.
-- [`flutter_launcher_icons`](https://pub.dev/packages/flutter_launcher_icons): ^0.14.4 — Easily update your Flutter app's launcher icon.
-
-## API
-
-My News fetches news articles using a news API such as [NewsAPI.org](https://newsapi.org/) or any other reliable news data provider.
-
-> **Note:** You may need to obtain an API key from your chosen news API provider and configure it in the project.
 
 ## Contribution
 
